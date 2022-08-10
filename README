@@ -1,0 +1,10 @@
+This android app is a tip calculator which also has new relic so it will also send data to New Relic and rollbar 
+
+to Send errors to your Rollbar project edit the app/src/main/AndroidManifest.xml and add your token
+
+The error is in the mainactivity.java file look for the resetBill() method to see how the error is generated 
+
+Additional file you may need to edit is the build.gradle file (under dependencies) if there are any changes 
+to make when you create an Android Studio project in the Rollbar project SDK wizard
+
+
